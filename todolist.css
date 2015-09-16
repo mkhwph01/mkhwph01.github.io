@@ -1,0 +1,15 @@
+.highpriority {
+background-color: red;
+}
+.mediumpriority {
+background-color: orange;
+}
+.lowpriority {
+background-color: grey;
+}
+.done {
+text-decoration line-through;
+}
+
+
+
