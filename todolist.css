@@ -8,7 +8,7 @@ background-color: orange;
 background-color: grey;
 }
 .done {
-text-decoration line-through;
+text-decoration: line-through;
 }
 
 
