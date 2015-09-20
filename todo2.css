@@ -1,1 +1,31 @@
-
+.high {
+  background-color: rgb(225,100,100);
+}
+.medium {
+  background-color: orange;
+}
+.low {
+  background-color: #999999;
+}
+.done {
+  background-color: black;
+  text-decoration: line-through;
+}
+.done li {
+  color: rgb(0,225,225);
+}
+.high li {
+  color: white;
+}
+.medium li {
+  color: #7050120;
+}
+h2 {
+  color: white;
+  text-align: center;
+}
+section {
+  height: 200px;
+  width: 300px;
+  overflow: auto;
+}
