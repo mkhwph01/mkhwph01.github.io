@@ -30,7 +30,7 @@ section {
   overflow: auto;
   margin: 10 10 10 10;
   border: 2px solid rgb(0,0,0);
-  float: left;
+  float: right;
 }
 footer {
   clear: left right;
