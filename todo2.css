@@ -8,7 +8,7 @@
   background-color: #999999;
 }
 .done {
-  background-color: black;
+  background-color: yellow;
   text-decoration: line-through;
 }
 .done li {
