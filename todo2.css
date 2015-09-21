@@ -33,5 +33,5 @@ section {
   float: left;
 }
 footer {
-  clear: both;
+  clear: left right;
 }
