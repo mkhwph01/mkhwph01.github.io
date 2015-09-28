@@ -22,5 +22,7 @@ section {
   float: left;
 }
 footer {
+  position: fixed;
+  bottom: 0px;
   clear: both;
 }
