@@ -21,9 +21,11 @@ section {
   margin: 10 10 10 10;
   float: left;
 }
-footer#f1 {
+footer {
   position: fixed;
   bottom: 0px;
-  color: blue;
   clear: both;
+}
+#f1 {
+  color: blue;
 }
