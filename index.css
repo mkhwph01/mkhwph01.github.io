@@ -12,6 +12,7 @@ nav {
   left: 20px;
 }
 section {
+  margin: 50px;
   height: 500px;
   width: 500px;
   overflow: auto;
