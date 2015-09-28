@@ -6,7 +6,7 @@ p {
   color: rgb(225,50,108);
   font-size: 18pt;
 }
-nav {
+nav,  h1, h3 {
   position: fixed;
   text-align: center;
 }
