@@ -24,5 +24,6 @@ section {
 footer {
   position: fixed;
   bottom: 0px;
+  color: blue;
   clear: both;
 }
