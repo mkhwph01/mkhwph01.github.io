@@ -2,5 +2,7 @@
 background-color: lightblue;
 }
 h1 {
+  position: fixed;
+  top: 0px;
   text-align: center;
 }
