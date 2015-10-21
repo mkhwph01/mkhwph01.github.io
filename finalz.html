@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <h1> <center> Busy Busy </center></h1>
+    </header>
+    <style>
+      .first {
+        margin-top:0px;
+        margin-bottom:0px;
+        top:0px;
+        width:80%;
+        height:300px;
+        background-color:lightblue;
+       }
+        
+      .high {
+        color:white; 
+        background-color:red;
+      }
+      .mediun {
+        color:white;
+        background-color:orange;
+      }
+     .low {
+       color:black;
+       background-color:gray;
+     }
+     .done {
+       color:cyan;
+       background-color:black;
+     }
+    </style>
+    <body>
+        <section class="first">
+          <ol id= "olid"> </ol>
+         
+        </section>
+        <select id="priority">
+        <option class="high" >High</option>
+        <option class="medium" >Medium</option>
+        <option class="low" >Low</option>
+        <option class="done" >Done</option>
+        </select>
+        
+        <label for="r"> input </label>
+        <input type="text" id="a">
+        <button onclick="Func();"> New </button>
+        <script type="text/javascript">
+         Func = function() {
+         var x=document.querySelector("#olid");
+         li1=document.createElement("li");
+         var cbox=document.createElement("input");
+         cbox.type="checkbox";contents2=document.createTextNode(document.querySelector("#a").value);        
+         li1.appendChild(cbox);
+         li1.appendChild(contents2);
+         x.appendChild(li1);
+     
+         }
+      
+      </script>  
+        
+    </body>
+</html>
